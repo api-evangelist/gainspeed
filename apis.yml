@@ -1,7 +1,24 @@
 aid: gainspeed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gainspeed.png
 name: Gainspeed
-description: Gainspeed is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Gainspeed, Inc. was a Sunnyvale, California networking startup that developed a
+  Virtual Converged Cable Access Platform (Virtual CCAP) built on a Distributed Access Architecture
+  (Remote PHY / DAA) for cable multiple-system operators (MSOs). The company was backed by
+  Andreessen Horowitz (a16z) and was acquired by Nokia in 2016, after which its virtual CCAP
+  technology was folded into Nokia's cable access portfolio. It was surfaced as an a16z portfolio
+  company and added to the API Evangelist network as a stub. Gainspeed operated no public developer
+  program, API, or live developer portal; its domain no longer resolves.
 url: https://raw.githubusercontent.com/api-evangelist/gainspeed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Nokia
+x-acquired-year: 2016
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Networking
+- Telecommunications
+- Cable
+- CCAP
+- Remote PHY
+- Distributed Access Architecture
+- Hardware
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
