@@ -64,3 +64,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/nokia-corp/
+  name: Nokia
+  x-relationship: acquired
+  x-evidence: "The company was backed by Andreessen Horowitz (a16z) and was acquired by Nokia in 2016, after which its virtual CCAP technology was folded into Nokia's cable access portfolio."
